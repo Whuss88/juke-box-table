@@ -3,8 +3,14 @@
 ### Get all users
 GET {{host}}/users
 
+### Get all users error
+GET {{host}}/user
+
 ### Get user by ID
 GET {{host}}/users/1
+
+### Get non existent user by ID
+GET {{host}}/users/100
 
 ### Get all playlists
 GET {{host}}/playlists
